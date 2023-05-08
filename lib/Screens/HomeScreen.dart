@@ -59,23 +59,23 @@ class _HomeScreenState extends State<HomeScreen>{
             slivers: <Widget>[
 
               //ストーリー
-              SliverList(
-                delegate: SliverChildBuilderDelegate(
-                      (BuildContext context, int index){
-                    return Container(
-                      padding: EdgeInsets.all(7),
-                      child: Row(
-                        children: [
-                          CircleAvatar(
-                            backgroundImage: AssetImage(postimages[index]),
-                          ),
-                        ],
-                      ),
-                    );
-                  },
-                  childCount: postimages.length,
-                ),
-              ),
+//               SliverList(
+//                 delegate: SliverChildBuilderDelegate(
+//                       (BuildContext context, int index){
+//                     return Container(
+//                       padding: EdgeInsets.all(7),
+//                       child: Row(
+//                         children: [
+//                           CircleAvatar(
+//                             backgroundImage: AssetImage(postimages[index]),
+//                           ),
+//                         ],
+//                       ),
+//                     );
+//                   },
+//                   childCount: postimages.length,
+//                 ),
+//               ),
               //
               //投稿
               SliverList(
