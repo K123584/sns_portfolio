@@ -1,4 +1,4 @@
-# sns_portfolio
+# sns_portfolio-flutter
 
 ポートフォリオとしてflutterでSNS風のUIを作成しました。
 
